@@ -1,0 +1,136 @@
+body {
+  margin:0 60px;
+}
+
+/*BARRA DE NAVEGACION*/
+.navbar {
+  margin-top: 30px;
+
+}
+
+.navbar img {
+  width: 120%;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+.form-inline a {
+  margin-right: 10px;
+}
+
+
+/*CARD DECK*/
+.features {
+  text-align: center;
+  margin-top: 100px;
+  font-weight: bold;
+  color: rgb(7, 150, 7);
+  font-size: 45px;
+}
+.subtitulos {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.card-deck {
+  margin-top: 20px;
+}
+
+.card-deck .card .card-img-top:hover {
+  transform: scale(1.01);
+}
+.card-deck .card .card-title {
+  text-align: center;
+}
+
+.card-deck .card .card-title:hover {
+  cursor: pointer;
+  color: rgb(88, 235, 20);
+}
+
+.card-deck .card .card-text {
+  text-align: center;
+  line-height: 1.7;
+}
+
+
+/*TOOLS*/
+
+.tools {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  color: rgb(7, 150, 7);
+  font-size: 25px;
+}
+
+.card .iconos{
+    padding-top:20px;
+    width:15%;
+
+}
+
+.card-body .card-title{
+    text-align: center;
+}
+
+.card-body .card-text{
+    text-align: center;
+}
+
+/*Seccion2*/
+.seccion2{
+    margin-top: 100px;
+    border: none;
+    margin-bottom: 100px;
+}
+
+.seccion2 .contenedor{
+    display: flex;
+    justify-content: center;
+}
+.seccion2 .card-img{
+    border: 1px solid #000;
+    border-radius:20px;
+    height:110%;
+    width:70%;
+}
+.seccion2 .card-title{
+    text-align: left;
+    font-size: 45px;
+    padding-top: 5px;
+    color: rgb(7, 150, 7);
+    font-weight: bold;
+}
+.seccion2 .card-text{
+    text-align: left;
+    font-size: 130x;
+    line-height:2;
+}
+
+/*Table*/
+
+.compare{
+    text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  color: rgb(7, 150, 7);
+  font-size: 45px;
+}
+
+table thead tr th{
+    text-align: center;
+    font-size: 25px;
+}
+
+.table img{
+    width:35px;
+}
+
+table tbody tr,td{
+    text-align: center;
+}
